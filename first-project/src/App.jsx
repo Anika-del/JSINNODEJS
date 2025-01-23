@@ -7,6 +7,8 @@ import './App.css';
 import Ankit from './Ankit';
 import Alok from './Alok';
 import Mcq from './Mcq';
+ import Inlinecss from './Inlinecss';
+ import Externalcss from './Externalcss';
 
 
 function App() {
@@ -17,6 +19,8 @@ function App() {
     <Ankit />
     <Alok />
     <Mcq />
+    <Inlinecss />
+    <Externalcss />
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> 

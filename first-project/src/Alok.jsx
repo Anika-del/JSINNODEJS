@@ -4,7 +4,9 @@ function Alok(){
     return ( <>
 
     <h1>Hii Alok Bhaiya</h1>
-    <p>How are you</p>
+    <div style={        { color: 'indigo', fontSize: '25px',}                   }>
+        How are u
+    </div>
         
     </>);
 }
