@@ -9,6 +9,7 @@ import Alok from './Alok';
 import Mcq from './Mcq';
  import Inlinecss from './Inlinecss';
  import Externalcss from './Externalcss';
+ import styles from './Style.module.css';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
     <Mcq />
     <Inlinecss />
     <Externalcss />
+    <div className={styles.modulecss}>from fileName.Module.css</div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
       </p> 

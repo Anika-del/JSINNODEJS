@@ -12,7 +12,7 @@ const style = {
 
    
 
-    <div style={        { color: 'red', fontSize: '25px',}                   }>
+    <div style={        { color: 'red', fontSize: '25px'}                   }>
         This is 2nd Inlinecss 
     </div>
 
