@@ -1,0 +1,6 @@
+.heroSection{
+    display: flex;
+    justify-content: center;
+    color: red;
+    background-color: aqua;
+}

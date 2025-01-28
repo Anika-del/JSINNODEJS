@@ -1,0 +1,10 @@
+.coin-rotate{
+   /* background-color: greenyellow; */
+  animation: spincoin 2s infinite ease-in-out ;
+}
+
+@keyframes spincoin {
+  from {transform: rotateY(0deg)}
+  to {transform: rotateY(360deg)}
+}
+

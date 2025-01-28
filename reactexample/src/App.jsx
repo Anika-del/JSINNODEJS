@@ -1,7 +1,7 @@
-// import { useState } from 'react'
+import React from 'react'
 import Header from "./components/header/Header";
-//import Footer from "./components/footer/Footer";
-
+import Footer from "./components/footer/Footer";
+import Hero from "./Hero";
  //import './App.css'
 
  //Header
@@ -14,6 +14,7 @@ function App() {
       <div>
 <Header/>
 <Footer/>
+<Hero />
     </div>
   )
 }

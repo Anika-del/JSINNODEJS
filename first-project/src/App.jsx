@@ -12,6 +12,7 @@ import Mcq from './Mcq';
  import styles from './Style.module.css';
 import ArrayMap from './ArrayMap';
 
+
 function App() {
   const [count, setCount] = useState(0)
 
@@ -23,6 +24,7 @@ function App() {
     <Inlinecss />
     <Externalcss />
     <ArrayMap />
+    
     <div className={styles.modulecss}>from fileName.Module.css</div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
