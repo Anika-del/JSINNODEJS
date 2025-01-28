@@ -53,7 +53,6 @@ function Mcq() {
       >
         urea
       </div>
-
     
     </div>
   );

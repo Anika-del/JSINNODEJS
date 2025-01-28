@@ -1,6 +1,86 @@
 .heroSection{
+    margin: 0;
+    padding: 0;
     display: flex;
     justify-content: center;
-    color: red;
-    background-color: aqua;
+    align-items: center;
+    /* color: red; */
+    /* background-color: aqua; */
+    flex-direction: row;
+    padding: 50px;
+}
+.row{
+    display: flex;
+    background-color: rgb(245, 238, 178);
+    width: 100%;
+    color: black;
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    /* background-color: blueviolet;
+    color: white; */
+}
+.colLeft{
+    justify-content: flex-start;
+    padding: 20px;
+    padding-top: 50px;
+    align-items: flex-start;
+}
+.title{
+    font-size: 1.6rem;
+}
+.orderBtm{
+    padding: 10px;
+    background-color: rgb(241, 222, 42);
+    color: white;
+    border-radius: 4px;
+    transform: all 0.3s ease-in;
+}
+.orderBtm:hover{
+    opacity: 0.6;
+}
+
+/*  */
+/*  */
+.cardWrapper{
+    padding: 0px 20px;
+    display: flex;
+    gap: 5px;
+}
+.card{
+    padding: 15px;
+    border: solid 1px silver;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 10px 20px 30px #e9d0d0;
+}
+.cardContent{
+    padding: 10px;
+}
+.cardImage{
+    width: 100%;
+    height: 150px;
+    border: none;
+    background-color: gary;
+}
+.cardTitle{
+    padding: 20px;
+    font-size: 1.2rem;
+    /* background-color: red; */
+    margin-bottom: 1px;
+    background-color: rgb(241, 222, 42);
+    border-radius: 20px;
+    text-align: center;
+}
+.cardDescription{
+    font-size: 1rem;
+    color: darkgray;
+}
+.price{
+    font-size: 1.5rem;
+
 }
