@@ -1,0 +1,39 @@
+/* Footer.module.css */
+
+.footer {
+    margin: 10px 0px;
+    background-color: #b3b011;
+    color: rgb(29, 3, 3);
+    padding: 20px 0;
+    text-align: center;
+    
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 20px 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(8, 19, 184);
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+.menu li a:hover {
+    text-decoration: underline;
+}
