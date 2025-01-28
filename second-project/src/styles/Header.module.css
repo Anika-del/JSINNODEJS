@@ -1,0 +1,29 @@
+.menuBar{
+    margin: 0;
+    padding: 5px 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(230, 214, 78);
+    /* color: #000000e8; */
+    gap: 100px;
+    list-style: none; 
+     
+}
+a:hover{
+    color: black;
+}
+.menuBar li {
+    /* Your existing styles for the list items */
+    cursor: pointer;
+    padding: 5px 15px;
+    border-radius: 20px;
+    letter-spacing: 4px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+.active {
+    background-color: rgb(245, 243, 235); /* You can change this color to whatever you prefer */
+    /* border: 1px solid black; */
+}
