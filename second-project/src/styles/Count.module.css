@@ -1,0 +1,10 @@
+.countContainer{
+  margin: 0;
+  padding: 20px 30px;
+  width: 100%;
+  background-color: aqua;
+  color: black;
+  text-align: center;
+  border: 2px solid red;
+  border-radius: 20px;
+}

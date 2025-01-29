@@ -1,0 +1,17 @@
+.incdecContainer{
+    margin: 0px 50px;
+    padding: 10px 20px;
+    width: 50%;
+    background-color: #ffae00;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    border: 2px solid black;
+    gap: 30px;
+}
+p{
+    font-size: 20px;
+    color: #310583;
+    border-bottom: #ffae00;
+}
