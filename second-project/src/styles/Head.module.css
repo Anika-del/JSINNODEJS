@@ -1,0 +1,18 @@
+.headContainer{
+    margin: 10px;
+    padding: 10px 30px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    list-style: none;
+}
+.active {
+    background-color: rgb(252, 210, 44); /* You can change this color to whatever you prefer */
+    /* border: 1px solid black; */
+    padding: 0px 10px;
+    border-radius: 20px;
+    color: red;
+}
