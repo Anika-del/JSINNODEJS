@@ -1,0 +1,28 @@
+/* src/components/netflixSeries/NetflixSeries.css */
+/* src/components/App.css */
+.app {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background-color: aquamarine;
+}
+
+.netflix-series {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.series {
+  border: 1px solid #884a4a;
+  padding: 20px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+
+.series h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.series p {
+  margin: 5px 0;
+}

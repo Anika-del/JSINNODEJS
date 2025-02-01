@@ -93,6 +93,7 @@ import ComC from "./ComC";
 
 // export default App;
 
+//---------------------Props-----------------------------------------------------
 // import ComA from "./ComA";
 // import ComB from "./ComB";
 // import ComC from "./ComC";
@@ -108,6 +109,9 @@ import ComC from "./ComC";
 //   );
 // }
 // export default App;
+//--------------------------Props----------------------------------
+
+
 // import { useState } from "react";
 // function App() {
 //   const [optionA, setOptionA] = useState(false);

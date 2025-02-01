@@ -1,0 +1,24 @@
+/* src/App.css */
+.app {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background: #7bcf0c;
+  }
+  
+  .product {
+    border: 2px solid hsl(0, 10%, 6%);
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    color: white;
+  }
+  
+  .product h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .product p {
+    margin: 5px 0;
+  }
+  

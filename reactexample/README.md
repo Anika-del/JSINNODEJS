@@ -81,3 +81,25 @@ To https://github.com/Anika-del/JSINNODEJS.git
  * [new branch]      main -> main
 branch 'main' set up to track 'origin/main'.
 PS D:\JSINNODEJS> 
+
+
+
+
+tailwind css---------------------------------------------------------------------------------------
+1. link--          https://v3.tailwindcss.com/docs/guides/vite
+in vs terminal
+2. PS D:\JSINNODEJS\reactexample>npm install -D tailwindcss@3 postcss autoprefixer
+3. PS D:\JSINNODEJS\reactexample>npx tailwindcss init -p
+4. in tailwind.config.js paste insted --
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+5. index.css me top pr paste--
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+6. npm run dev
+7. use like this --
+className="text-3xl font-bold underline"
+---------------------------------------------------------------------------------------------------
