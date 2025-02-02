@@ -1,9 +1,10 @@
 import React from 'react'
 
-const Component1 = () => {
+const Component1 = ({count}) => {
   return (
     <div>
-      Component1
+      {/* Component1 */}
+      {count}
     </div>
   )
 }

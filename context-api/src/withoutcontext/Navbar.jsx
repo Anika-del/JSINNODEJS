@@ -1,13 +1,13 @@
 import React from 'react'
 import Button from './Button'
 
-const Navbar = () => {
+const Navbar = ({count}) => {
   return (
     <>
     <div>
       Navbar hu mai
     </div>
-    <Button/>
+    <Button count={count}/>
     </>
   )
 }
