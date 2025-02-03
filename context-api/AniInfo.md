@@ -27,4 +27,6 @@ and agr Component1.jsx me use krna h to
       4).const counter = useContext(counterContext)
       fir counter ko {counter} aise use krna h 
 ab value change bhi krna h to app.jsx me
-      1).
+      1).<counterContext.Provider value={{count, setCount}}>
+ count ka value change krna h to setCount ka use krna h
+      2).
