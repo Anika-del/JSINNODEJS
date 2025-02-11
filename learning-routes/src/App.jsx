@@ -2,12 +2,13 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
+import './Style.css';
 
 const App = () => {
   return (
     <Router>
       <nav>
-        <ul>
+        <ul className="head">
           <li>
             <Link to="/">Home</Link>
           </li>
