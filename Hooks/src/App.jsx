@@ -8,7 +8,7 @@ function App() {
     <>
       {/* <LogInOut /> */}
       {/* <LogInOut2 /> */}
-      <Counter />
+      <Counter/>
     </>
   );
 }
